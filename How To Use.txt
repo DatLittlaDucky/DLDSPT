@@ -1,0 +1,4 @@
+To use this go to our discord and download any mod and take that mod place in "Mods" and open the python file Release.py
+
+How to install python
+search python and click on the first link and install the latest release in setup press "ADD TO PATH" and after finishing setup open Release.py and that's it!
