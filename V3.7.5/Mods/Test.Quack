@@ -1,0 +1,28 @@
+list fruits = ["apple", "banana", "cherry"]
+show fruits[1]
+append fruits "date"
+show fruits[3]
+
+let name = "Ducky"
+show "Hello, " + name
+
+function greet(person)
+  show "Hi, " + person + "!"
+end
+
+call greet(name)
+
+let x = 5
+add x 3
+show x
+
+if x > 7
+  show "x is greater than 7"
+end
+
+loop while x > 0
+  show x
+  sub x 1
+end
+
+show "All done!"
