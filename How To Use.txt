@@ -1,4 +1,11 @@
-To use this go to our discord and download any mod and take that mod place in "Mods" and open the python file Release.py
+This is a special How to Use Manual!
 
-How to install python
-search python and click on the first link and install the latest release in setup press "ADD TO PATH" and after finishing setup open Release.py and that's it!
+Drag and Drop or upload your mods to the Mods section in the discord (chance of getting it approved) or inside your folder and go into the version and play!
+
+How to use V1.0.0
+
+python Release.py [modname].py
+
+other Versions should be self explained :3
+
+all approved mods will be placed in the newest version for u :)
