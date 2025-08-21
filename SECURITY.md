@@ -16,7 +16,7 @@ Older releases will **not** receive security updates, patches, or support.
 
 If you discover a security vulnerability in DLDSPT:
 
-- **Preferred:** Open a **ticket** in our [Discord server](https://discord.gg/your-discord-invite)  
+- **Preferred:** Open a **ticket** in our [Discord server](https://discord.gg/gmpqqZAPmQ)  
 - **Alternative:** Create a **GitHub Issue** in the repository  
 
 Please provide as much detail as possible so we can reproduce and fix the issue quickly.  
