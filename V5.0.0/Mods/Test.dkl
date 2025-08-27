@@ -1,0 +1,15 @@
+# DuckyLang Calculator
+
+print Welcome to DuckyLang Calculator!
+input num1
+input num2
+print Enter operation (+, -, *, /):
+input op
+
+if op == + then add num1 num2
+if op == - then sub num1 num2
+if op == * then mul num1 num2
+if op == / then div num1 num2
+
+print Result:
+print num1
