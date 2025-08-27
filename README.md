@@ -1,25 +1,51 @@
 # DLDSPT
 
-**DLDSPT** is a modular script and tool launcher that lets you run and manage Python scripts, DuckyLang scripts, and more.  
-It includes a menu-based interface with sorting, filtering, and mod support for easy organization and execution.
+**DLDSPT** (Dynamic Lightweight Ducky Script & Python Tool) is a modular script and tool launcher.  
+It lets you run and manage Python scripts, DuckyLang scripts, and more through a clean, menu-based interface.  
 
 ---
 
-## Features
+## ✨ Features
 
-- 📜 **Script Manager** – Browse and run Python & DuckyLang mods  
-- 🖥️ **Interactive Menu** – Clean Rich-powered UI with sorting & filtering  
-- 🎨 **Extras** – Rainbow text, mod metadata display, and more  
+- 📜 **Script Manager** – Browse and run Python, DuckyLang, and (soon) Webpage mods  
+- 🖥️ **Interactive Menu** – Rich-powered UI with sorting, filtering, and categories  
+- 🎨 **Extras** – Rainbow text, metadata display, and colorful UI themes  
 - 🔄 **Reloading** – Restart the tool directly from the menu  
+- 🛡️ **Security Layer** – Optional safety wrapper to ask permission before file or system access  
+- ⚡ **Modular Design** – Drop your mods in the `Mods` folder and they show up automatically  
 
-*(⚠️ Webpage mods are in development and not available yet.)*
+*(⚠️ Webpage mods are planned, but not released yet.)*
 
 ---
 
-## Installation
+## 📥 Installation
 
 1. Clone or download this repository  
 2. Install the dependencies:  
 
-```bash
-pip install -r requirements.txt
+```pip install -r Requirements```
+🚀 Usage
+Run the main script:
+
+bash
+Copy code
+python Release.py
+From there, the menu will let you:
+
+Browse available mods
+
+Sort & filter by type
+
+Run Python or DuckyLang mods
+
+(Future) Launch HTML/JS mods in a guest window
+
+🔧 Contributing
+Only the latest release is officially supported
+
+Report issues via GitHub Issues or on our Discord (Tickets)
+
+PRs are welcome if you want to add features, fix bugs, or create new mods
+
+📜 License
+MIT License – free to use, modify, and distribute.
