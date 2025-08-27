@@ -1,4 +1,4 @@
-# DLDSPT v5.0.0 - extended (full script with extra file-type support)
+# DLDSPT v5.0.0 - extended (full script with extra file-type support) Released on 2025-08-27 12:00AM
 import os
 import sys
 import runpy
