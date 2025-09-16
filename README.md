@@ -1,6 +1,6 @@
 # DLDSPT
 
-**DLDSPT** (Dynamic Lightweight Ducky Script & Python Tool) is a modular script and tool launcher.  
+**DLDSPT** (DatLittlaDucky's Python Tooling) is a modular script and tool launcher.  
 It lets you run and manage Python scripts, DuckyLang scripts, Webpage mods, and more through a clean, menu-based interface.  
 
 ---
