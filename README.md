@@ -45,14 +45,5 @@ Report issues via GitHub Issues or on our Discord (Tickets)
 
 PRs are welcome if you want to add features, fix bugs, or create new mods
 
-🛣️ Roadmap
-✅ Webpage mods support (since 5.0.0)
-
-🔲 Custom themes & UI skins
-
-🔲 Configurable keybindings
-
-🔲 Plugin API for third-party integrations
-
 📜 License
 MIT License – free to use, modify, and distribute.
