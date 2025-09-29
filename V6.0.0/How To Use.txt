@@ -1,0 +1,77 @@
+🚀 DLDSPT v5.0.0
+🔹 How to Install
+
+Install Python
+
+Go to python.org
+ → Download latest release.
+
+In the installer, check “Add to PATH” → Finish install.
+
+Download Mods
+
+Join our Discord and grab any mod.
+
+Place mods into the Mods/ folder.
+
+Run DLDSPT
+
+Open a terminal and run:
+
+python Release.py
+
+
+The main menu will load and show your mods.
+
+🔹 Supported File Types
+
+Runnable Mods
+
+.py → Python
+
+.dkl → Ducky
+
+.html, .js → Web mods (JS runs in built-in browser)
+
+View / Edit Files
+
+.json, .txt, .csv, .yaml / .yml, .ini, .xml, .toml, .md, .css
+
+View-Only Assets
+
+.pdf, .zip, .mod, .asset
+
+🔹 New in v5.0.0
+
+✨ Full Extended File Support
+Added .csv, .yaml/.yml, .ini, .xml, .toml, .md, .css, .pdf, .zip, .mod, .asset
+
+🎨 UI Improvements
+
+Dark/Light theme toggle
+
+Cleaned up menu navigation
+
+Improved search, filters, favourites, and pinning
+
+🔒 Security Upgrades
+
+Safe file opening (restricted to Mods/, config, or logs)
+
+Safe system command wrapper
+
+🛠 Utility Features
+
+Mod info viewer, tags, and comments
+
+Recent mods tracking
+
+Config import/export
+
+Automatic mod backups
+
+🌍 Update Checker
+
+Checks GitHub for new releases
+
+Shows changelog and download link
