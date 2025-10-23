@@ -172,12 +172,12 @@ class DLDSPTLocalPeer:
                 break
             peer.send(msg)
     """
-    def __init__(self, port=50505, password="changeme"):
+    def __init__(self, port=50505, password="changeme", bind_addr="127.0.0.1"):
         self.port = port
         self.password = password.encode("utf-8")
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-        self.sock.bind(("", port))
+        self.sock.bind((bind_addr, port))
 
     def sign(self, msg):
         return hmac.new(self.password, msg.encode("utf-8"), hashlib.sha256).hexdigest()
