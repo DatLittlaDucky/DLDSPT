@@ -1,4 +1,4 @@
-# DLDSPT v6
+# DLDSPT V6
 import os
 import sys
 import runpy
@@ -19,7 +19,7 @@ if resources_path not in sys.path:
 
 # ----------------- Networking -----------------
 try:
-    import networking
+    import networking # pyright: ignore[reportMissingImports]
     HAVE_NETWORKING = True
 except ImportError:
     HAVE_NETWORKING = False
@@ -725,7 +725,7 @@ def display_menu(py_files, filter_text=None, sort_by="name"):
     theme_cfg = THEMES.get(theme, THEMES["light"])
 
     # Partnership banner
-    partnership_text = "We have partnered with Lunar's Mods!"
+    partnership_text = "Have a good day!"
     if USE_RICH:
         from rich.text import Text
         from rich.panel import Panel
@@ -1067,7 +1067,7 @@ def run_duckylang_script(mods_path, modname=None, script_path=None):
                 if resources_path not in sys.path:
                     sys.path.insert(0, resources_path)
                 try:
-                    import duckylang
+                    import duckylang # pyright: ignore[reportMissingImports]
                     duckylang.run_duckylang(script_path)
                 except ImportError:
                     print("Error: duckylang module not found in Resources folder.")
@@ -1088,7 +1088,7 @@ def run_duckylang_script(mods_path, modname=None, script_path=None):
         input("Press Enter to return to DLDSPT Menu...")
         return
     try:
-        import duckylang
+        import duckylang # pyright: ignore[reportMissingImports]
         duckylang.run_duckylang(script_path)
     except Exception as e:
         print("Error running DuckyLang:", e)
