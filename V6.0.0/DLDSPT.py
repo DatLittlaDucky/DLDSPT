@@ -720,6 +720,10 @@ def check_version():
 def display_menu(py_files, filter_text=None, sort_by="name"):
     clear_console()
     check_version()
+    # Set default theme to dark if not already set
+    if "theme" not in config:
+        config["theme"] = "dark"
+        save_config(config)
 
     theme = config.get("theme", "light")
     theme_cfg = THEMES.get(theme, THEMES["light"])
@@ -953,7 +957,11 @@ def set_theme():
     theme = input("Choose theme (light/dark/highcontrast/lunar): ").strip().lower()
     if theme not in THEMES:
         print("Invalid theme. Using light.")
-        theme = "light"
+        theme = "light"    if theme == "lunar":
+        config["theme"] = "lunar"
+    elif theme == "purplepink": # Keep purplepink for backwards compatibility
+        config["theme"] = "lunar"
+
     config["theme"] = theme
     save_config(config)
     print("Theme set.")
